@@ -31,7 +31,7 @@ const App: React.FC = () => (
       />
     </Header>
     <Content style={{ padding: "0 50px" }}>
-      <div className="site-layout-content">Content</div>
+      <div className="site-layout-content"></div>
     </Content>
     <Footer className={styles.footer}>
       Ant Design ©2018 Created by Ant UED
