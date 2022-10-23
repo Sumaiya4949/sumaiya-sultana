@@ -1,5 +1,6 @@
 import { Avatar, Layout, Menu, Space, Typography } from "antd";
 import React from "react";
+import Home from "./routes/Home";
 import styles from "./styles/App.module.scss";
 
 const { Header, Content, Footer } = Layout;
@@ -32,8 +33,10 @@ const App: React.FC = () => (
       />
     </Header>
 
-    <Content style={{ padding: "0 50px" }}>
-      <div className="site-layout-content"></div>
+    <Content className={styles.appContent}>
+      <div className="site-layout-content">
+        <Home />
+      </div>
     </Content>
 
     <Footer className={styles.footer}>
