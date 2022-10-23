@@ -17,6 +17,7 @@ const App: React.FC = () => (
         </Typography.Title>
       </Space>
     </Header>
+
     <Header className={styles.navHeader}>
       <Menu
         className={styles.menu}
@@ -30,9 +31,11 @@ const App: React.FC = () => (
         ]}
       />
     </Header>
+
     <Content style={{ padding: "0 50px" }}>
       <div className="site-layout-content"></div>
     </Content>
+
     <Footer className={styles.footer}>
       Ant Design ©2018 Created by Ant UED
     </Footer>
