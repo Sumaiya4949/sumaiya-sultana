@@ -1,4 +1,4 @@
-import { Avatar, Breadcrumb, Layout, Menu, Space, Typography } from "antd";
+import { Avatar, Layout, Menu, Space, Typography } from "antd";
 import React from "react";
 import styles from "./styles/App.module.scss";
 
@@ -31,11 +31,6 @@ const App: React.FC = () => (
       />
     </Header>
     <Content style={{ padding: "0 50px" }}>
-      <Breadcrumb style={{ margin: "16px 0" }}>
-        <Breadcrumb.Item>Home</Breadcrumb.Item>
-        <Breadcrumb.Item>List</Breadcrumb.Item>
-        <Breadcrumb.Item>App</Breadcrumb.Item>
-      </Breadcrumb>
       <div className="site-layout-content">Content</div>
     </Content>
     <Footer className={styles.footer}>

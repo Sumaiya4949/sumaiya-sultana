@@ -5,12 +5,13 @@
 
 .footer {
     text-align: center;
-    background-color: #222;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
 }
 
 .titleHeader {
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     
     .fullName {
         color: white;
@@ -20,7 +21,7 @@
 }
 
 .navHeader {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
 
     .menu {
         justify-content: center;
