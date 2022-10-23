@@ -7,3 +7,25 @@
     text-align: center;
     background-color: #222;
 }
+
+.titleHeader {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    .fullName {
+        color: white;
+        margin-bottom: 0;
+        margin-left: 1rem;
+    }
+}
+
+.navHeader {
+    background-color: rgba(0, 0, 0, 0.5);
+
+    .menu {
+        justify-content: center;
+        background-color: transparent;
+    }
+}
+
+
